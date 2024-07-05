@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>1.0.6.4 Page Title</title>
+        
+        <style>
+            /* This is a commented line, this wont compile, and will not show. */
+
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+
+            .main {
+                width: 60vw;
+                margin: auto;
+                margin-top: 20vh;
+            }
+
+            .rowDiv {
+                height: 30vh; /* vh - window height ratio */
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+
+            .blueDiv {
+                height: 20vh;
+                background-color: #4388CD;
+                border: 2px solid black;
+                border-radius: 30px;
+
+                padding-left: 30px;
+                color: white;
+                font-size: 3vh;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .yellowDiv {
+                background-color: #FFFE69;
+                border: 2px solid black;
+            }
+
+            .pinkDiv {
+                background-color: #FFCCCB;
+                border: 2px solid black;
+
+                padding: 2vw;
+                padding-bottom: 35%;
+                display: grid;
+                grid-template-columns: 65% 35%;
+            }
+            .pinkDiv > div > button {
+                margin: 3px 20px;
+                width: 80%;
+            }
+
+            .tableDiv {
+                background-color: white;
+                /* border: 2px solid black; */
+                margin: 2vw;
+                height: 70%;
+
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+            }
+            .tableDiv > div {
+                border: 1px solid black;
+            }
+            .greyDiv {
+                background-color: gray;
+            }
+            .borderlessDiv {
+                border: none !important;            
+            }
+            
+        </style>
+
+    </head>
+    <body>
+
+        <!-- This is a commented line, this wont compile, and will not show. -->
+
+        <div class="main">
+            <div class="rowDiv blueDiv">
+                <h1>Header</h1>
+            </div>
+            <div class="rowDiv">
+                <div class="yellowDiv">
+                    <div class="tableDiv">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="borderlessDiv"></div>
+                        <div class="borderlessDiv"></div>
+                        <div></div>
+                        <div></div>
+                        <div class="borderlessDiv"></div>
+                        <div class="greyDiv"></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="pinkDiv">
+                    <textarea></textarea>
+                    <div>
+                        <button>Function 1</button>
+                        <button>Function 2</button>
+                        <button>Function 3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

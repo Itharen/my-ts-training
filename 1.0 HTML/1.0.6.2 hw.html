@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>1.0.6.2 Page Title</title>
+        
+        <style>
+            /* This is a commented line, this wont compile, and will not show. */
+
+            /* div {
+                border: 10px solid black;
+            } */
+
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+
+            .main {
+                width: 60vw;
+                margin: auto;
+                margin-top: 20vh;
+            }
+
+            .rowDiv {
+                height: 30vh; /* vh - window height ratio */
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+
+            .blueDiv {
+                height: 20vh;
+                background-color: lightblue;
+                border: 1px solid black;
+                border-radius: 30px;
+            }
+
+            .yellowDiv {
+                background-color: yellow;
+                border: 1px solid black;
+            }
+
+            .pinkDiv {
+                background-color: pink;
+                border: 1px solid black;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+
+        <!-- This is a commented line, this wont compile, and will not show. -->
+
+        <div class="main">
+            <div class="rowDiv blueDiv">
+                <h1>Header</h1>
+            </div>
+            <div class="rowDiv">
+                <div class="yellowDiv"></div>
+                <div class="pinkDiv"></div>
+            </div>
+        </div>
+
+    </body>
+</html>

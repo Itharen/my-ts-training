@@ -1,0 +1,33 @@
+// What you definetly need for a junoir job (+HTML +CSS):
+
+// INTRODUCTION
+    1.2.1 - 1.2.5
+
+// VARIABLES
+    1.2.6 - 1.2.7
+
+// CONDITIONALS
+    1.2.8 - 1.2.9
+
+// FUNCTIONS
+    1.2.10 - 
+
+// ARRAYS
+
+// LOOPS
+
+// ITERATORS
+
+// OBJECTS
+
+// CLASSES
+
+// MODULES
+
+// PROMISES
+
+// ASYNC-AWAIT
+
+// REQUESTS
+
+// HTML controls (IO (Input/Output))

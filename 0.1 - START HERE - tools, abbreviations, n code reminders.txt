@@ -1,0 +1,270 @@
+
+this whole training project supposed be the gate to any IT sector
+JavaScript and FrontEnd can be an easy way to step in to programming
+
+
+First of all you'll need two things; MOTIVATION and WILLPOWER
+Ofcourse you also need a computer, internet access and some softwares as well.
+
+Tools
+	You'll need...
+		Browser: chrome or mozilla (use these to open files for testing, I personally recommend chrome)
+			link: https://www.google.com/chrome/?brand=CHBD&brand=CHBD&gclid=CjwKCAiA5sieBhBnEiwAR9oh2iw-Ml03v1_4odw3s4ft93VcMVBvjULkXjqdm38PXTUua69f7Vib1BoCaIIQAvD_BwE&gclsrc=aw.ds
+
+		Code editor (IDE ~ Integrated Development Environment): Visual Studio Code
+			(use this to open project folder for development) 
+			(also a notePad++ or a simple txt editor can be used, but visual studion code contains a lots of feature that supports development)
+			link: https://code.visualstudio.com/download
+
+			I recommend to add extensions to VSCode like... (in Visual Studio Code > on the left > Extensions (ctrl+shift+x))
+				HTML CSS support
+				TSLint
+				(for angular Angular X Snippets (X = latest version)
+
+		GIT: GIT is a version control system, which helps developers to work on projects together. this also helps to share code bases
+			(this can be used directly from CLI, but I personally recommend to use TortoiseGIT in the first steps)
+			link: https://git-scm.com/downloads
+		
+		TortoiseGIT: This is a GIT handling tools which will be integrated to your Windows and helps to handle GIT commands easily
+			link: https://tortoisegit.org/download/
+
+	You should have... (optional)
+		ClipX - clipboard history (highly recommended), remembers the last 50 clipboards (ctrl + c, ctrl + shift + v)
+			link: https://clipx.en.softonic.com/
+
+	Other tools you might need...
+		Instant eyedropper - get color code from screen (rarely needed, but helps if needed ;) )
+			link: http://instant-eyedropper.com/downloads/
+
+
+Tips
+	feel free to use...
+		google,
+			google everything!
+				...for basic sintax use w3schools 
+					(HTML: https://www.w3schools.com/html/default.asp, 
+					 CSS: https://www.w3schools.com/css/default.asp, 
+					 JS: https://www.w3schools.com/js/default.asp,
+					 ect...), 
+				for solutions use stackoverflow (usually from google),
+				for color codes color picker,
+					(https://www.w3schools.com/colors/colors_picker.asp,
+					 or https://www.google.com/search?q=color+picker)
+				dont be afraid to use google translator to translate what you exactly want,
+				etc...
+		ctrl + c, ctrl + v (which is the most powerful tool in development! 
+			it will be useful to know where you left codes that you can use later)
+
+	try to write your codes in english
+
+	If you press F12 in your browser, you can observe the html css and other infos about the page, you are visiting. 
+		There is the console.
+			Also there is an inspect button, that helps you find the element, and the style that.
+		Try different page width on sites by grabbing the consoles edge (resize console).
+		You can try codes in console.
+
+	while developing you can...
+		save files: 					ctrl + s,
+		switch to browser:	 	alt + tab,
+		refresh browser: 			F5
+		in Visual Studio Code, highlight section, than comment out with: 		shift + alt + a
+
+    You also can try to change styles through console.
+
+    If you use a style on more than 1 element, you should use classes.
+
+	Anytime you are developing anything try to write the least code you can.
+		
+
+
+Course HowTo
+	0 - First of all I have to tell, that the true mastery of IT knowledges is how you search for new things, 
+				like solutions, methods, connections forms, technologies, abbreviations, protocols, phrases, etc.
+				-If you have any kind of question read a BIT 
+					you can save tons of time by NOT reading the FULL article, but trying to understand the CODES first
+						ofcourse, if you don't understand the code, you can read the description
+				-read at least the 2nd dia of the "0.1 - Software basics" (Software architectures)
+	1 - open the course folder with Visual Studio Code, than read comments in files, start with 1.0.0/1.0.0.html
+			open the files, one after another, read the comments, and try to understand, how the code is put together,
+	2 - do homeWorks and ask questions from author: (Itharen)
+				1.0.6.1 reproduce by html	
+
+
+
+
+
+
+
+
+Abbreviations
+	HTML - HyperText Markup Language
+	CSS - Cascading Style Sheets
+	JS - JavaScript
+	LTS - LongTermSupport (usually the latest stable version)
+	CLI - Command Line Interface
+	UI - User Interface
+	UX - User Experience
+	DNS - Domain Name Service
+	API - Application Programming Interface
+
+frequently used hotkeys
+	shift + alt + a - comment
+	tab / shift + tab - tab
+	ctrl + f - search
+	ctrl + s - save
+	F5 - refresh page
+	F12 - open console
+
+Recommended Visual Studio Code Extensions
+	HTML CSS Support
+	TSLint
+	for Angular
+		Angular Language Service
+		Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+		Angular Material 2, Flex layout 1, Covalent 1 & Material icon snippets
+		Angular Snippets
+
+Coding Reminder
+	don't forget...
+		to close brackets (), [], {}, <div></div>
+		; from end of operations
+		, from lists
+
+CSS cribs
+	style applying hierachy:
+		id > class > element
+		or the last with the same
+	style selectors:
+		id: #thisIsAnId {...}
+		class: .thisIsAClass {...}
+		element: div {...}
+		child element: .parent > .child {...}
+		both selector (any kind of): .selector1 #selector2 {...}
+
+Code crib
+	basic perations
+		multiply: 				a * b
+		divide: 					a / b
+		add: 							a + b
+		extract: 					a - b
+		increase value:	 		a++					// by 1
+		decrease value: 		a--					// by 1
+		value transmission: 	a = b
+		increase value by:		a += b
+		decrease value by		a -= b
+
+	relations:
+		and: 								&&
+		or: 								||
+		equal: 								==
+		not equal: 							!=
+		exactly the same (+type check):		===
+		not exactly the same (+type check):	!==
+		larger, smaller: 					<, >
+		larger or equal, smaller or equal: 	<=, >=
+
+	if evaluation: IF ? DO : ELSE
+
+	comment: 
+		CSS, JS: 
+			// comment
+			code /* comment */ code
+		HTML: code <!-- comment --> code
+
+	HTML
+		Table:
+			<table> 
+				<tr> <!-- row -->
+					<td> cell content </td> <!-- cell -->
+				</tr>
+			</table>
+
+			<table><tr><td> cell content </td></tr></table>
+
+	JS
+		declarations:
+			VARIABLE:					// TYPE
+				var vName;				// any // undefined
+				var vName2 = true; 		// boolean
+				var vName3 = 65;		// number
+				var vName4 = 'sanyi';	// string
+				var vName5 = null;		// null
+
+			ARRAY:
+
+			OBJECT:
+
+			FUNCTION:
+				function fName() {
+					</code>
+				}
+
+		basic operations:
+			IF:
+				if( relation ) { // relation e.g: a < b
+					</code1>
+				} else {
+					</code2>
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			FOR:
+				var c = countTableRows();
+				for( var i = 0; i < c; i++ ) {
+					((((((((( /*admincheckTHIS!*/
+					if(getValue(column_[prop JS name],i)=””) alert(‘Töltsd ki!’);
+																				)))))))))
+				}
+
+
+
+		frequently used codes:
+			console.log( 'something I want to see in console', varThatIWantToSeeInConsole );
+			alert('ALERT message!');
+
+		js function examples:
+			(((( /*admincheckTHIS!*/
+			document.getElementById(‘ID’);
+
+			document.getElementById(‘ID’).style.display = “none”;
+
+			getValue(field_[prop JS name],row);
+
+			setValue(field_[prop JS name],row,’érték’);
+														))))
+

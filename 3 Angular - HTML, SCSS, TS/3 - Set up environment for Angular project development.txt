@@ -1,0 +1,40 @@
+
+download and install (install with basic suggested settings): 
+	nodeJS latest stable verion (LTS) from https://nodejs.org/en/
+	GIT from https://gitforwindows.org/
+	interface for GIT from https://tortoisegit.org/ (optional (You can use git bash from CLI))
+	
+after you installed these programs, you can use GIT version control, and can easily get a clone from accessible projects like this:
+	get the project git url to your clipboard (ctrl + c) (get this for first example: https://gitlab.com/Itharen/scheme-project)
+	go to the directory, where you want to make the project to take place, than with right click -> GIT Clone... , if I'm correct, tortoise will automatically copy the url from clipboard to the URL field, and also will automatically set the destenation folder as well, so your only job is to press ok
+	
+run from CLI (Command Line Interface):
+	CLI (on windows) is accessable by...
+		cmd: search "run" in windows start, then run "cmd" (boom that's the conlose)
+		power shell (recommended): search "powerShell" in windows start
+			I also recommend to make shortcut for CLI
+	from CLI:
+		if your directory is on another drive than C:, like E:, than type:
+			E:
+		go to your directory with:
+			cd ProgrammingIsland/Own/scheme-project
+			if you need to go back, use
+				..
+				like from C:\Users\Bob> it will be cd ../../theFolder/YourProject/WillBe
+		than run:
+			npm install -g @angular/cli
+		now you are able to create, run and build angular projects!
+		
+		if you cloned an existing project, you need to install the packages for it with running the following code in the project directory:
+			npm i
+		and your Angular project is good to go. run with:
+			ng serve -o
+			this will automatically open it for you, and will refresh any time, you save modifications! (note that it not always reloads perfectly when you modify something in a module)
+		
+		if you cloned the scheme-project, create your own branch by...
+			right click on project folder -> TortoiseGit -> Switch/Checkout
+				click on Create New Branch, and write your username (this will be the name of the branch) in to the field
+					then OK
+			BOOM, you have your very own branch,
+				now you can play(ruin the project) as you want without messing it up for everyone else ;)
+

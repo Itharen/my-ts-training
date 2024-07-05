@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>1.0.3 Page Title</title>
+
+        <!-- 
+            The styles are take place in the "head" of the html
+            styles can be added to each type of html element
+            or you can create classes, to specify complex styles for more elements at once
+        -->
+        
+        <style>
+            /* This is a commented line, this wont compile, and will not show. */
+            
+            h1 {
+                /* this will apply to all the h1 tags in html */
+                color: green;
+            }
+
+            h2, h3 {
+                /* this will apply to all the h2 AND h3 tags in html */
+                color: #ffffff; /* this is a hexadecimal color code */
+                background-color: rgb(0, 0, 0); /* this is an rgb color code (Red Green Blue) */
+            }
+
+            p {
+                background-color: lightblue;
+            }
+
+            .actuallyAnyKindOfClassNameYouDesire {
+                /* this will apply to all tags in html that have the actuallyAnyKindOfClassNameYouDesire on class */
+                border: 2px solid purple;
+            }
+
+            .the-way-you-use-it {
+                border-radius: 10px;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+
+            .bigger-p-class {
+                font-size: 24px;
+            }
+
+            .padding-is-when-spacing-inside {
+                padding: 50px;
+            }
+
+            .margin-is-when-spacing-outside {
+                margin: 50px;
+            }
+
+            
+            
+        </style>
+
+    </head>
+    <body>
+
+        <!-- This is a commented line, this wont compile, and will not show. -->
+
+        <h1>1.0.3 This is a Heading 1</h1>
+
+        <h2>This is heading 2</h2>
+
+        <h3>This is heading 3</h3>
+
+        <p>This is a paragraph.</p>
+
+        <p class="actuallyAnyKindOfClassNameYouDesire">This is a paragraph with border.</p>
+
+        <p class="actuallyAnyKindOfClassNameYouDesire the-way-you-use-it">
+            This is a paragraph with more class.
+        </p>
+
+        <p class="bigger-p-class margin-is-when-spacing-outside">This is another paragraph.</p>
+
+        <!-- styles can be added directly to elements, but this should be avoided -->
+        <p style="width: 50%;" class="padding-is-when-spacing-inside">Thos ust ba paragraph. bla bla bla </br> blity bluty</p>
+
+        <img src="https://http.cat/101" title="and these are the 101 http error code cats (tooltip)">
+
+        <a href="https://www.w3schools.com/html">Visit W3Schools HTML</a>
+
+        <input>
+        
+        <button>ButtonText</button>
+
+        <!-- At this point I can't even go further without using styles, so lets go to the next lesson. -->
+
+    </body>
+</html>

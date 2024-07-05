@@ -1,0 +1,74 @@
+
+<!DOCTYPE html> 
+<html>
+  <head>
+    <style>
+
+      html {
+        background-color: gray;
+      }
+      html, body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+      }
+
+      div {
+        min-height: 300px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+      p {
+        margin: 16px;
+        font-size: 24px;
+        line-height: 30px;
+        color: yellowgreen;
+        
+        display: inline-block;
+      }
+
+      .div1 {
+        /*----------------*/
+        position: relative;
+        /*----------------*/
+
+        margin-top: 50px;
+        margin-left: 15px;
+      }
+      .div2 {
+        /*----------------*/
+        top: 0;
+        left: 25%;
+        width: 75%;
+        position: absolute;
+        /*----------------*/
+        
+        background-color: rgba(0, 0, 0, 0.75);
+
+        /* transition: 1s;
+        opacity: 0;  */
+      }
+      .div1:hover > .div2 {
+        /* opacity: 100; */
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- For making it more transparent, I removed the prvious codes -->
+
+    <!-- Here I will show some examples of overlays, and css action behaviors, but while it is not ready, you can go to the next lesson -->
+
+    <!-- This is a commented line, this wont compile, and will not show. -->
+
+    <div class="div1">
+      <p>SOMETHING THAT WILL BE OVERLAYED Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="div2">
+        <p>OVERLAY</p>
+      </div>
+    </div>
+
+  </body>
+</html>

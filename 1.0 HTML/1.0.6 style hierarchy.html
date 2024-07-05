@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>1.0.6 Page Title</title>
+        
+        <style>
+            /* This is a commented line, this wont compile, and will not show. */
+            
+            h1 {
+                /* this will apply to all the h1 tags in html */
+                color: green;
+            }
+
+            h2, h3 {
+                /* this will apply to all the h2 and h3 tags in html */
+                color: #ffffff; /* this is a hexadecimal color code */
+                background-color: rgb(0, 0, 0); /* this is an rgb color code (Red Green Blue) */
+            }
+
+            
+            /* this is move to the end for an example
+            p { 
+                background-color: lightblue;
+            } */
+
+            button {
+                margin: 15px;
+                padding: 15px;
+                border: 1px solid black;
+                border-radius: 5px;
+                background-color: greenyellow;
+                font-size: 15px;
+                font-weight: bold;
+                cursor: pointer;
+                box-shadow: 0px 0px;
+
+                /* this will handle all the transitions through two different css class changes */
+                transition: 0.5s;
+            }
+            button:hover {
+                background-color: yellow;
+                box-shadow: 5px 5px;
+            }
+            button:active {
+                background-color: white;
+                box-shadow: 5px 5px;
+            }
+            
+            /* div {
+                margin: 25px;
+            }  */
+            
+            td, table {
+                border: 1px solid black;
+            }
+
+            input {
+                padding: 10px;
+                border-radius: 5px;
+            }
+
+            .actuallyAnyKindOfClassNameYouDesire {
+                /* this will apply to all tags in html that have the actuallyAnyKindOfClassNameYouDesire on class tags in html that have the actuallyAnyKindOfClassNameYouDesire on class */
+                border: 2px solid purple;
+            }
+
+            .the-way-you-use-it {
+                border-radius: 10px;
+                /* rgba differs from rgb, that the last number is for opacity */
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+
+            .bigger-p-class {
+                font-size: 24px;
+            }
+
+            .padding-is-when-spacing-inside {
+                padding: 50px;
+            }
+
+            .margin-is-when-spacing-outside {
+                margin: 50px;
+            }
+
+            .newTable {
+                border-collapse: collapse;
+                margin-top: 15px;
+                width: 50%;
+                height: 30vh;
+                border: none;
+            }
+            .xyz { 
+                border: 1px solid black;
+                border-radius: 15px;
+                width: 100%;
+                height: 100%;
+            }
+            .asd {
+                border: none;
+                padding: 0;
+            }  
+
+            .anyadCell {
+                padding: 0;
+            }
+
+            .nestedTable {
+                border-collapse: collapse;
+                width: 100%;
+                height: 100%;
+                border: none;
+                padding: -1px;
+            } 
+
+            .fiszfasz {
+                border: none;
+            }
+
+            .es {
+                width: 50%;
+                height: 50%;
+            }
+
+            .balfaszvagyok {
+                border-bottom: 0;
+                border-right: 0;
+            }
+
+            /* this selector chooses all first child <p> elements in the elements with "innerEl" class */
+            .innerEl > p {
+                color: orange;
+            }
+
+            /* this selector chooses the elements with BOTH this specific 2 classes */
+            .actuallyAnyKindOfClassNameYouDesire .the-way-you-use-it {
+                font-size: 32px;
+            }
+
+            /* this is an id selector, id's used to specify single elements of the DOM */
+            #ASD {
+                color: yellow;
+            }
+
+            /* if you declare the same two times, the second will overwrite the first one */
+            #Prio {
+                color: red;
+                font-weight: bold;
+            }
+            #Prio {
+                color: blue;
+            }
+
+            /* this will be the priority for applying classes: element specified < class < id  */
+            p {
+                background-color: lightblue;
+            }
+            #exampleID {
+                background-color: rgba(255, 0, 0, 0.3); /* the 4. parameter in RGBA color will make it transparent 0.1 is 10% and 0.9 is 90% */
+            }
+            .exampleClass {
+                background-color: green;
+            }
+            /* #
+            testOne" id="testTwo"     
+            backgr  */
+
+
+            /* 
+                the homework is to recreate the "1.0.6.0 HTML HomeWork.JPG" in html with HTML and CSS code (its not required to be pixel perfect, nor to use the same font family)
+                this can be solved in several ways
+                from 1.0.6.1 to 1.0.6.6, you can find a solution (not the best)
+            */
+            
+        </style>
+
+    </head>
+    <body>
+
+        <!-- This is a commented line, this wont compile, and will not show. -->
+
+        <div class="innerEl">
+            <h1>1.0.6 This is a Heading 1</h1>
+
+            <h2 id="ASD">This is heading 2</h2>
+
+            <h3>This is heading 3</h3>
+
+            <p>This is a paragraph.</p>
+
+            <div>
+                <p class="actuallyAnyKindOfClassNameYouDesire">This is a paragraph with border.</p>
+            </div>
+        </div>
+
+        <p class="actuallyAnyKindOfClassNameYouDesire the-way-you-use-it">
+            This is a paragraph with more class.
+        </p>
+
+        <p class="bigger-p-class margin-is-when-spacing-outside" id="Prio">This is another paragraph with margin.</p>
+
+        <!-- styles can be added directly to elements, but this should be avoided -->
+        <p style="width: 50%;" class="padding-is-when-spacing-inside exampleClass" id="exampleID">This is another paragraph with padding bla bla bla </br> blity bluty</p>
+
+        <div>
+            <img src="https://http.cat/101" title="and these are the 101 http error code cats (tooltip)">
+        </div>
+
+        <div>
+            <a href="https://www.w3schools.com/html">Visit W3Schools HTML</a>
+        </div>
+
+        <div>
+            <input>
+        </div>
+        
+        <button>ButtonText</button>
+
+        <table>
+            <tr>
+                <th>HEAD1</th>
+                <th>HEAD2</th>
+                <th>HEAD3</th>
+            </tr>
+            <tr>
+                <td rowspan="2">CONTENT2</td>
+                <td colspan="2">CONTENT1</td>
+            </tr>
+            <tr>
+                <td>CONTENT2</td>
+                <td>CONTENT3</td>
+            </tr>
+        </table>
+
+        <table class="newTable">
+            <tr>
+                <td colspan=2 class="asd">
+                    <div class="xyz"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>CONTENT2</td>
+                <td>CONTENT3</td>
+            </tr>
+        </table>
+
+        <table class="newTable">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="2" colspan="2"></td>
+                <td></td>          
+            </tr>
+            <tr>
+                <td></td>
+                <td></td> 
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>            
+            </tr>
+        </table>
+
+        <table class="newTable">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="2" colspan="2" class="anyadCell">
+                    <table class="nestedTable">
+                        <tr>
+                            <td class="es fiszfasz"></td>
+                            <td class="es fiszfasz"></td>
+                        </tr>
+                        <tr>
+                            <td class="es fiszfasz"></td>
+                            <td class="es balfaszvagyok"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>          
+            </tr>
+            <tr>
+                <td></td>
+                <td></td> 
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>            
+            </tr>
+        </table>
+
+    </body>
+</html>

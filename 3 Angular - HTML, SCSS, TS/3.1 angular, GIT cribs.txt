@@ -1,0 +1,53 @@
+                                    Angular CLI   
+NODE strart: npm run start
+
+
+								  Angular
+
+install angular pack: 	npm install -g @angular/cli
+	create new project:	ng new my-app
+                launch:	cd my-app (go to directory)
+                        ng serve -o (-o = --open : this opens in browser automatically after the project is compiled)
+        add component:	ng generate component nameofcomponent (--spec=false)
+        add service:	ng generate service nameofservice (--module=app)
+        add module:     ng generate module subfolderifneeded/nameofmodule (--flat --module=app)
+        add pipe:		ng generate pipe nameofpipe
+                        --flat : puts the file in src/app instead of its own folder
+                        --module=app : tells the CLI to register it in the imports array of the AppModule.
+						--spec=false : create element without spec file (its for automated unit testing)
+                        ng serve --port 4401  
+
+installed modules:
+			material: 	ng add @angular/material
+        
+		flex-layout:  	npm install @angular/flex-layout --save
+					
+						.module.ts:	
+						  import { FlexLayoutModule } from "@angular/flex-layout";
+
+						  @NgModule({
+							...
+							imports: [
+								FlexLayoutModule,
+							],
+							...
+						  })
+
+																	GIT Versioning
+
+use TortoiseGit (right click on folders)
+repo = repository
+Get repo:	clone
+Refresh all local branches by remote branches: fetch
+Change branch (can change to new): switch/checkout
+Refresh local branch by remote branch: pull
+Update local branch (commit changes): commit
+Update remote branch by local branch: push
+Update remote branch (by changes): commit & push
+Discard local changes: stash
+Merge brach(master) changes to your branch: merge (master)
+
+
+
+
+

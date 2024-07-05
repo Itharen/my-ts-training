@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>1.1.0 Page Title</title>
+
+        <!-- CSS is moved to another file, this makes the code more simple, and separates -->
+        <!-- you can split the Visual Code Editor by clicking on the top right corner 'Split Editor Right', this way you can open/edit more files simultaneously -->
+        <link rel="stylesheet" type="text/css" href="1.1.0.css"> 
+        <!-- 
+            If the imported file is in the same folder as the html file, you dont need to bother with it.
+            But if your file is in a folder next to the html, you need to add the path to the href, like this: "folderName/subfolderNameIfNeeded/1.1.0.css"
+            also you can go up in folders with "..", like this: "../../1.1.0.css"
+        -->
+
+        <!-- 
+            When you are developing HTML + CSS, I recommend you to open both files the same time by Splitting the editor in Visual Studio Code (top right corner) (ctrl + ű), 
+            also I recommend to use this function every time you edit multiple files
+        -->
+
+        <style>
+            /* You still can add style here */
+        </style>
+
+    </head>
+    <body>
+
+        <!-- This is a commented line, this wont compile, and will not show. -->
+
+        <h1>1.1.0 This is a Heading 1</h1>
+
+        <h2>This is heading 2</h2>
+
+        <h3>This is heading 3</h3>
+
+        <p>This is a paragraph.</p>
+
+        <p class="actuallyAnyKindOfClassNameYouDesire">This is a paragraph with border.</p>
+
+        <p class="actuallyAnyKindOfClassNameYouDesire the-way-you-use-it">
+            This is a paragraph with more class.
+        </p>
+
+        <p class="bigger-p-class margin-is-when-spacing-outside">This is another paragraph with margin.</p>
+
+        <p style="width: 50%;" class="padding-is-when-spacing-inside">This is another paragraph with padding bla bla bla </br> blity bluty</p>
+
+        <div>
+            <img src="https://http.cat/101" title="and these are the 101 http error code cats (tooltip)">
+        </div>
+
+        <div>
+            <a href="https://www.w3schools.com/html">Visit W3Schools HTML</a>
+        </div>
+
+        <div>
+            <input>
+        </div>
+        
+        <button>ButtonText</button>
+
+        <table>
+            <tr>
+                <td>HEAD1</td>
+                <td>HEAD2</td>
+                <td>HEAD3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">CONTENT2</td>
+                <td colspan="2">CONTENT1</td>
+            </tr>
+            <tr>
+                <td>CONTENT2</td>
+                <td>CONTENT3</td>
+            </tr>
+        </table>
+
+    </body>
+</html>

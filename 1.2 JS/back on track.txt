@@ -1,0 +1,21 @@
+
+I created this txt file to felp you get back on track in case you skipped some time between to lessons.
+
+Dont forget to open the whole course folder in Visual Studio Code.
+Open every lesson's html file in browser, open browser console with F12, and try to call functions there.
+There are also some helping snippets in the START HERE file, so you might need to open it from time to time.
+It is easier to follow guides and check screens if you have 2 or more monitors, one for the code (VSC), and one for the running version in browser
+If you face any issue or question, don't hesitate to ask Tahi-Tóth Balázs.
+
+try to do some testing, like try out everything that comes to your mind!
+    try to break the code,
+    try the functions
+    try to add codes or variables throught the console
+        etc
+also try to write your own codes with different namings...
+
+...and once again, don't forget to call the sample functions in the console!
+
+(lessons are having some parts from previous lessons this is for practicing and repeat, 
+    so don't skip them but make sure, you understand what is in)
+    
